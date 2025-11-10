@@ -1,0 +1,637 @@
+[
+  {
+    "id": 1,
+    "title": "Height",
+    "description": "Tell about your height",
+    "is_visible": true,
+    "questions": [
+      {
+        "id": 1,
+        "heading": "Enter your height?",
+        "max_selections": 1,
+        "component_type": "slider",
+        "profile_field": "height",
+        "answers": []
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Interested in",
+    "description": "Share your interest",
+    "is_visible": true,
+    "questions": [
+      {
+        "id": 2,
+        "heading": "Interested in",
+        "max_selections": 1,
+        "component_type": "select",
+        "profile_field": "interested_in",
+        "answers": [
+          {"id": 72, "label": "Male", "value": "Male", "display_order": 1},
+          {"id": 73, "label": "Female", "value": "Female", "display_order": 2}
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Social Circle",
+    "description": "Connect with your social platforms all over the world",
+    "is_visible": true,
+    "questions": [
+      {
+        "id": 3,
+        "heading": "Connect with your social circle",
+        "max_selections": 2,
+        "component_type": "social_connect",
+        "answers": [
+          {"id": 74, "label": "Facebook", "value": "Facebook", "display_order": 1},
+          {"id": 75, "label": "Instagram", "value": "Instagram", "display_order": 2}
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "ID Verification",
+    "description": "Scan you id",
+    "is_visible": true,
+    "questions": [
+      {
+        "id": 4,
+        "heading": "Scan your id for verification",
+        "max_selections": 2,
+        "component_type": "id_scan",
+        "answers": [
+          {"id": 76, "label": "ID Verification", "value": "", "display_order": 1}
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Your PairUp Location",
+    "description": "Your location to pairup",
+    "is_visible": true,
+    "questions": [
+      {
+        "id": 5,
+        "heading": "Choose Location",
+        "max_selections": 1,
+        "component_type": "location_picker",
+        "profile_field": "location",
+        "answers": [
+          {"id": 77, "label": "Location", "value": "", "display_order": 1}
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Get to Know Me Clip",
+    "description": "Share a bit about yourself with a live, recorded video from your devices camera. Choose one of our fun prompt questions to answer and let your personality shine! This helps create a genuine connection right from the start.",
+    "is_visible": true,
+    "questions": [
+      {
+        "id": 6,
+        "heading": "Choose a prompt to answer in your video.",
+        "max_selections": 1,
+        "component_type": "radio",
+        "answers": [
+          {
+            "id": 64,
+            "label": "Why do you think meeting in a group is better than a one-on-one first hangout?",
+            "value": "double_date_better",
+            "display_order": 1
+          },
+          {
+            "id": 65,
+            "label": "What's your favorite way to spend a weekend with friends?",
+            "value": "weekend_with_friends",
+            "display_order": 2
+          },
+          {
+            "id": 66,
+            "label": "How do you make new people feel welcome when hanging out in a group?",
+            "value": "welcome_new_people",
+            "display_order": 3
+          },
+          {
+            "id": 67,
+            "label": "What's a shared activity you think is perfect for a first meetup?",
+            "value": "perfect_double_date",
+            "display_order": 4
+          },
+          {
+            "id": 68,
+            "label": "Describe your ideal group outing or hangout.",
+            "value": "ideal_group_outing",
+            "display_order": 5
+          },
+          {
+            "id": 69,
+            "label": "What's your go-to game or activity for breaking the ice with new friends?",
+            "value": "ice_breaking_game",
+            "display_order": 6
+          },
+          {
+            "id": 70,
+            "label": "If you could plan the ultimate friend + date night, what would it look like?",
+            "value": "ultimate_double_date",
+            "display_order": 7
+          },
+          {
+            "id": 71,
+            "label": "What's a fun fact about you that people might not guess?",
+            "value": "fun_fact",
+            "display_order": 8
+          }
+        ]
+
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Record Your Video",
+    "description": "recorded video from your devices camera.",
+    "is_visible": true,
+    "questions": [
+      {
+        "id": 7,
+        "heading": "video upload",
+        "max_selections": 1,
+        "component_type": "video_upload",
+        "profile_field": "video_url",
+        "answers": [
+          {"id": 78, "label": "Video", "value": "", "display_order": 1}
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Upload your photo",
+    "description": "Tap to replace, hold to reorder",
+    "is_visible": true,
+    "questions": [
+      {
+        "id": 8,
+        "heading": "Photo upload",
+        "max_selections": 6,
+        "component_type": "photo_upload",
+        "profile_field": "photos",
+        "answers": [
+          {"id": 79, "label": "Photo 1", "value": "", "display_order": 1},
+          {"id": 80, "label": "Photo 2", "value": "", "display_order": 2},
+          {"id": 81, "label": "Photo 3", "value": "", "display_order": 3},
+          {"id": 82, "label": "Photo 4", "value": "", "display_order": 4},
+          {"id": 83, "label": "Photo 5", "value": "", "display_order": 5},
+          {"id": 84, "label": "Photo 6", "value": "", "display_order": 6}
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Bonding Moments",
+    "description": "Moments to bond with someone",
+    "is_visible": true,
+    "questions": [
+      {
+        "id": 9,
+        "heading": "What bonding moments do you prefer?",
+        "max_selections": 1,
+        "component_type": "radio",
+        "answers": [
+          {"id": 29, "label": "Friday night in with a homemade meal", "value": "Friday night in with a homemade meal", "display_order": 1},
+          {"id": 30, "label": "Exploring restaurants and bars", "value": "Exploring restaurants and bars", "display_order": 2}
+        ]
+      },
+      {
+        "id": 19,
+        "heading": "What bonding moments do you prefer? (1)",
+        "max_selections": 1,
+        "component_type": "radio",
+        "answers": [
+          {"id": 31, "label": "Running a marathon on a Sunday", "value": "Running a marathon on a Sunday", "display_order": 3},
+          {"id": 32, "label": "Grabbing brunch with your boo", "value": "Grabbing brunch with your boo", "display_order": 4}
+        ]
+      },
+      {
+        "id": 20,
+        "heading": "What bonding moments do you prefer? (2)",
+        "max_selections": 1,
+        "component_type": "radio",
+        "answers": [
+          {"id": 33, "label": "Cozy movie marathon", "value": "Cozy movie marathon", "display_order": 5},
+          {"id": 34, "label": "Outdoor movie night under the stars", "value": "Outdoor movie night under the stars", "display_order": 6}
+        ]
+      },
+      {
+        "id": 21,
+        "heading": "What bonding moments do you prefer? (3)",
+        "max_selections": 1,
+        "component_type": "radio",
+        "answers": [
+          {"id": 35, "label": "Camper adventures", "value": "Camper adventures", "display_order": 7},
+          {"id": 36, "label": "Glamping experiences", "value": "Glamping experiences", "display_order": 8}
+        ]
+      },
+      {
+        "id": 22,
+        "heading": "What bonding moments do you prefer? (9)",
+        "max_selections": 1,
+        "component_type": "radio",
+        "answers": [
+          {"id": 37, "label": "Living in a downtown apartment", "value": "Living in a downtown apartment", "display_order": 9},
+          {"id": 38, "label": "Living in a big house in the suburbs", "value": "Living in a big house in the suburbs", "display_order": 10}
+        ]
+      },
+      {
+        "id": 23,
+        "heading": "What bonding moments do you prefer? (5)",
+        "max_selections": 1,
+        "component_type": "radio",
+        "answers": [
+          {"id": 39, "label": "On a sunny day, lounging poolside", "value": "On a sunny day, lounging poolside", "display_order": 11},
+          {"id": 40, "label": "On a sunny day, taking a dip in the ocean", "value": "On a sunny day, taking a dip in the ocean", "display_order": 12}
+        ]
+      },
+      {
+        "id": 24,
+        "heading": "What bonding moments do you prefer? (6)",
+        "max_selections": 1,
+        "component_type": "radio",
+        "answers": [
+          {"id": 41, "label": "Cooking at home together", "value": "Cooking at home together", "display_order": 13},
+          {"id": 42, "label": "Dining out for a culinary adventure", "value": "Dining out for a culinary adventure", "display_order": 14}
+        ]
+      },
+      {
+        "id": 25,
+        "heading": "What bonding moments do you prefer? (7)",
+        "max_selections": 1,
+        "component_type": "radio",
+        "answers": [
+          {"id": 43, "label": "Wine tasting tour", "value": "Wine tasting tour", "display_order": 15},
+          {"id": 44, "label": "Visiting local breweries for beer tasting", "value": "Visiting local breweries for beer tasting", "display_order": 16}
+        ]
+      },
+      {
+        "id": 26,
+        "heading": "What bonding moments do you prefer? (8)",
+        "max_selections": 1,
+        "component_type": "radio",
+        "answers": [
+          {"id": 45, "label": "Road trip explorations", "value": "Road trip explorations", "display_order": 17},
+          {"id": 46, "label": "Relaxing in an airport lounge", "value": "Relaxing in an airport lounge", "display_order": 18}
+        ]
+      },
+      {
+        "id": 27,
+        "heading": "What bonding moments do you prefer? (9)",
+        "max_selections": 1,
+        "component_type": "radio",
+        "answers": [
+          {"id": 47, "label": "Fall asleep cuddling with a TV on", "value": "Fall asleep cuddling with a TV on", "display_order": 19},
+          {"id": 48, "label": "Fall asleep cuddling in blissful silence", "value": "Fall asleep cuddling in blissful silence", "display_order": 20}
+        ]
+      },
+      {
+        "id": 28,
+        "heading": "What bonding moments do you prefer? (10)",
+        "max_selections": 1,
+        "component_type": "radio",
+        "answers": [
+          {"id": 49, "label": "Cooking over a campfire", "value": "Cooking over a campfire", "display_order": 21},
+          {"id": 50, "label": "Enjoying the luxury of room service", "value": "Enjoying the luxury of room service", "display_order": 22}
+        ]
+      },
+      {
+        "id": 29,
+        "heading": "What bonding moments do you prefer? (11)",
+        "max_selections": 1,
+        "component_type": "radio",
+        "answers": [
+          {"id": 51, "label": "Live music in the open air", "value": "Live music in the open air", "display_order": 23},
+          {"id": 52, "label": "Enjoying music at home", "value": "Enjoying music at home", "display_order": 24}
+        ]
+      },
+      {
+        "id": 30,
+        "heading": "What bonding moments do you prefer? (12)",
+        "max_selections": 1,
+        "component_type": "radio",
+        "answers": [
+          {"id": 53, "label": "Connecting over cocktails", "value": "Connecting over cocktails", "display_order": 25},
+          {"id": 54, "label": "Connecting over mocktails", "value": "Connecting over mocktails", "display_order": 26}
+        ]
+      },
+      {
+        "id": 31,
+        "heading": "What bonding moments do you prefer? (13)",
+        "max_selections": 1,
+        "component_type": "radio",
+        "answers": [
+          {"id": 55, "label": "Taking your dog on a play date", "value": "Taking your dog on a play date", "display_order": 27},
+          {"id": 56, "label": "Organizing a kid play date", "value": "Organizing a kid play date", "display_order": 28}
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "About Me",
+    "description": "Share a little about yourself! Highlight your interests, what makes you unique, and what you are looking for on The PairUp.",
+    "is_visible": true,
+    "questions": [
+      {
+        "id": 10,
+        "heading": "About Me",
+        "max_selections": 1,
+        "component_type": "textarea",
+        "profile_field": "bio",
+        "answers": [
+          {"id": 85, "label": "About Me", "value": "", "display_order": 1}
+        ]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Relationship Goals",
+    "description": "Whether you are looking for a partner in adventures, building a cozy life together, or just someone to share laughs and lunchtime chats with, let us know! Your relationship goals help us connect you with like-minded individuals who share your vision of companionship.",
+    "is_visible": true,
+    "questions": [
+      {
+        "id": 11,
+        "heading": "Relationship Goals",
+        "max_selections": 1,
+        "component_type": "textarea",
+        "profile_field": "relationship_goals",
+        "answers": [
+          {"id": 86, "label": "Relationship Goals", "value": "", "display_order": 1}
+        ]
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Pets",
+    "description": "Questions about pets",
+    "is_visible": true,
+    "questions": [
+      {
+        "id": 12,
+        "heading": "Do you have pets?",
+        "max_selections": 1,
+        "component_type": "radio",
+        "answers": [
+          {"id": 1, "label": "No Pets", "value": "No_Pets", "display_order": 1},
+          {"id": 2, "label": "Dog Lover", "value": "Dog_Lover", "display_order": 2},
+          {"id": 3, "label": "Cat Enthusiast", "value": "Cat_Enthusiast", "display_order": 3},
+          {"id": 4, "label": "Both Cats and Dogs", "value": "Both_Cats_and_Dogs", "display_order": 4},
+          {"id": 5, "label": "Small Pet Parent (Rabbits, Hamsters, etc.)", "value": "Small_Pet_Parent", "display_order": 5},
+          {"id": 6, "label": "Exotic Animals (Birds, Reptiles, etc.)", "value": "Exotic_Animal", "display_order": 6},
+          {"id": 7, "label": "Open to Pets", "value": "Open_to_Pets", "display_order": 7},
+          {"id": 8, "label": "Allergic, but Love Animals", "value": "Allergic_but_Love_Animals", "display_order": 8}
+        ]
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Habits",
+    "description": "These details help us match you with someone whose habits align with yours. Here's to finding your perfect lifestyle companion!",
+    "is_visible": true,
+    "questions": [
+      {
+        "id": 13,
+        "heading": "Smoking Habits:",
+        "max_selections": 1,
+        "component_type": "radio",
+        "answers": [
+          {"id": 9, "label": "Non-smoker", "value": "non_smoker", "display_order": 1},
+          {"id": 10, "label": "Occasional Smoker", "value": "occasional_smoker", "display_order": 2},
+          {"id": 11, "label": "Regular Smoker", "value": "regular_smoker", "display_order": 3}
+        ]
+      },
+      {
+        "id": 14,
+        "heading": "Drinking Habits:",
+        "max_selections": 1,
+        "component_type": "radio",
+        "answers": [
+          {"id": 12, "label": "Non-Drinker", "value": "non_drinker", "display_order": 1},
+          {"id": 13, "label": "Social Drinker", "value": "social_drinker", "display_order": 2},
+          {"id": 14, "label": "Regular Drinker", "value": "regular_drinker", "display_order": 3}
+        ]
+      },
+      {
+        "id": 15,
+        "heading": "Dietary Preferences:",
+        "max_selections": 1,
+        "component_type": "radio",
+        "answers": [
+          {"id": 15, "label": "Omnivore", "value": "Omnivore", "display_order": 1},
+          {"id": 16, "label": "Vegetarian", "value": "Vegetarian", "display_order": 2},
+          {"id": 17, "label": "Vegan", "value": "Vegan", "display_order": 3},
+          {"id": 18, "label": "Gluten-Free", "value": "Gluten_Free", "display_order": 4},
+          {"id": 19, "label": "Pescatarian", "value": "Pescatarian", "display_order": 5},
+          {"id": 20, "label": "Other (with an option to specify)", "value": "Other", "display_order": 6}
+        ]
+      },
+      {
+        "id": 32,
+        "heading": "Work Out",
+        "max_selections": 1,
+        "component_type": "radio",
+        "answers": [
+          {"id": 21, "label": "Active", "value": "Active", "display_order": 1},
+          {"id": 22, "label": "Sometimes", "value": "Sometimes", "display_order": 2},
+          {"id": 23, "label": "Almost Never", "value": "Almost_Never", "display_order": 3}
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Love Languages",
+    "description": "Understanding how you connect with others is important! Please select up to two love languages that resonate with you. This will help us match you with compatible partners who appreciate and express love in ways that matter to you.",
+    "is_visible": true,
+    "questions": [
+      {
+        "id": 16,
+        "heading": "What are your love languages?",
+        "max_selections": 2,
+        "component_type": "radio",
+        "answers": [
+          {"id": 24, "label": "Words of Affirmation", "value": "words_of_affirmation", "display_order": 1},
+          {"id": 25, "label": "Acts of Service", "value": "acts_of_service", "display_order": 2},
+          {"id": 26, "label": "Receiving Gifts", "value": "receiving_gifts", "display_order": 3},
+          {"id": 27, "label": "Quality Time", "value": "quality_time", "display_order": 4},
+          {"id": 28, "label": "Physical Touch", "value": "physical_touch", "display_order": 5}
+        ]
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Attachment Style",
+    "description": "Understanding your attachment style can provide insight into how you connect with others emotionally. Choose the style that best represents you",
+    "is_visible": true,
+    "questions": [
+      {
+        "id": 17,
+        "heading": "What is your attachment style?",
+        "max_selections": 1,
+        "component_type": "radio",
+        "answers": [
+          {"id": 57, "label": "Secure", "value": "secure", "display_order": 1},
+          {"id": 58, "label": "Anxious", "value": "anxious", "display_order": 2},
+          {"id": 59, "label": "Avoidant", "value": "avoidant", "display_order": 3},
+          {"id": 60, "label": "Disorganized", "value": "disorganized", "display_order": 4}
+        ]
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Relocate for Love",
+    "description": "How open are you to the possibility of moving for a relationship? Select the option that best reflects your mindset.",
+    "is_visible": true,
+    "questions": [
+      {
+        "id": 18,
+        "heading": "How open are you to relocating for a relationship?",
+        "max_selections": 1,
+        "component_type": "radio",
+        "answers": [
+          {"id": 61, "label": "Yes, I'm Open to Relocating", "value": "open_to_relocating", "display_order": 1},
+          {"id": 62, "label": "Maybe, Under the Right Circumstances", "value": "conditional_relocating", "display_order": 2},
+          {"id": 63, "label": "No, I'd Prefer to Stay Put", "value": "prefer_to_stay", "display_order": 3}
+        ]
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Kids",
+    "description": "Tell about kids",
+    "is_visible": true,
+    "questions": [
+      {
+        "id": 33,
+        "heading": "Do you have Kids?",
+        "max_selections": 1,
+        "component_type": "radio",
+        "answers": [
+          {"id": 87, "label": "Have kids", "value": "have_kids", "display_order": 1},
+          {"id": 88, "label": "Don't have kids", "value": "dont_have_kids", "display_order": 2},
+          {"id": 89, "label": "Want kids", "value": "want_kids", "display_order": 3},
+          {"id": 90, "label": "Open to them", "value": "open_to_them", "display_order": 4},
+          {"id": 91, "label": "Not sure", "value": "not_sure", "display_order": 5}
+        ]
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Politics",
+    "description": "Tell about your political views",
+    "is_visible": true,
+    "questions": [
+      {
+        "id": 34,
+        "heading": "What are your political views?",
+        "max_selections": 1,
+        "component_type": "radio",
+        "answers": [
+          {"id": 92, "label": "Apolitical", "value": "apolitical", "display_order": 1},
+          {"id": 93, "label": "Moderate", "value": "moderate", "display_order": 2},
+          {"id": 94, "label": "Liberal", "value": "liberal", "display_order": 3},
+          {"id": 95, "label": "Conservative", "value": "conservative", "display_order": 4}
+        ]
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Religion",
+    "description": "Tell about your religion",
+    "is_visible": true,
+    "questions": [
+      {
+        "id": 35,
+        "heading": "What is your religion?",
+        "max_selections": 1,
+        "component_type": "radio",
+        "answers": [
+          {"id": 96, "label": "Non Preference", "value": "non_preference", "display_order": 1},
+          {"id": 97, "label": "Christian", "value": "christian", "display_order": 2},
+          {"id": 98, "label": "Catholic", "value": "catholic", "display_order": 3},
+          {"id": 99, "label": "Jewish", "value": "jewish", "display_order": 4},
+          {"id": 100, "label": "Muslim", "value": "muslim", "display_order": 5},
+          {"id": 101, "label": "Unitarian/Universalist", "value": "unitarian_universalist", "display_order": 5},
+          {"id": 102, "label": "Buddhist", "value": "buddhist", "display_order": 6},
+          {"id": 103, "label": "Hindu", "value": "hindu", "display_order": 7},
+          {"id": 104, "label": "Agnostic", "value": "agnostic", "display_order": 8},
+          {"id": 105, "label": "Atheist", "value": "atheist", "display_order": 9},
+          {"id": 106, "label": "Other", "value": "other", "display_order": 10}
+        ]
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Education",
+    "description": "Tell about your education",
+    "is_visible": true,
+    "questions": [
+      {
+        "id": 36,
+        "heading": "What is your Education?",
+        "max_selections": 1,
+        "component_type": "radio",
+        "answers": [
+          {"id": 107, "label": "High school", "value": "high_school", "display_order": 1},
+          {"id": 108, "label": "Trade/tech school", "value": "trade_tech_school", "display_order": 2},
+          {"id": 109, "label": "In collage", "value": "in_college", "display_order": 3},
+          {"id": 110, "label": "Undergraduate degree", "value": "undergraduate_degree", "display_order": 4},
+          {"id": 111, "label": "In grade school", "value": "in_grade_school", "display_order": 5},
+          {"id": 112, "label": "Graduate degree", "value": "graduate_degree", "display_order": 6}
+        ]
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Zodiac Sign",
+    "description": "Tell about your zodiac sign",
+    "is_visible": true,
+    "questions": [
+      {
+        "id": 37,
+        "heading": "What is your Zodiac sign?",
+        "max_selections": 1,
+        "component_type": "radio",
+        "answers": [
+          {"id": 113, "label": "Aries", "value": "aries", "display_order": 1},
+          {"id": 114, "label": "Taurus", "value": "taurus", "display_order": 2},
+          {"id": 115, "label": "Gemini", "value": "gemini", "display_order": 3},
+          {"id": 116, "label": "Cancer", "value": "cancer", "display_order": 4},
+          {"id": 117, "label": "Leo", "value": "leo", "display_order": 5},
+          {"id": 118, "label": "Virgo", "value": "virgo", "display_order": 6},
+          {"id": 119, "label": "Libra", "value": "libra", "display_order": 7},
+          {"id": 120, "label": "Scorpio", "value": "scorpio", "display_order": 8},
+          {"id": 121, "label": "Sagittarius", "value": "sagittarius", "display_order": 9},
+          {"id": 122, "label": "Capricorn", "value": "capricorn", "display_order": 10},
+          {"id": 123, "label": "Aquarius", "value": "aquarius", "display_order": 11},
+          {"id": 124, "label": "Pisces", "value": "pisces", "display_order": 12}
+        ]
+      }
+    ]
+  }
+]
